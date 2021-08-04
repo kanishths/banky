@@ -343,8 +343,6 @@ btnClose.addEventListener('click', function (e) {
     );
     // console.log(index);
 
-    // .indexOf(23)
-
     // Delete account
     accounts.splice(index, 1);
 
@@ -358,8 +356,6 @@ btnClose.addEventListener('click', function (e) {
 let sorted = false;
 btnSort.addEventListener('click', function (e) {
   e.preventDefault();
-  // BUG in video:
-  // displayMovements(currentAccount.movements, !sorted);
 
   // FIX:
   displayMovements(currentAccount, !sorted);
